@@ -38,7 +38,7 @@ function count_counter_3()
         document.querySelector("#count_3").innerHTML=counter_3;
         if(counter_3==data_3)
         {
-            clearInterval(count_2);
+            clearInterval(count_3);
         }
     },3)
 }
